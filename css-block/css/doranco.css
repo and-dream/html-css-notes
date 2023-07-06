@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #4e4e4e;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+/* COMPONENTS */
+.btn {
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.btn:hover {
+    color: green;
+}
+
+/* HERO */
+
+.hero {
+    background-image:linear-gradient(rgba(92, 87, 87, 0.719), transparent), url(../img/hero-1920x1080.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 20px;
+    color: #fff;
+}
+
+.hero h1 {
+    padding: 15px;
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* .hero a {
+    text-decoration: none;
+    background-color: red;
+    padding: 16px;
+    border-radius: 10%;
+    text-transform: uppercase;
+    font-weight: 600;
+     
+} */
+
+.span-hero {
+    font-style: italic;
+}
+
+/* largeur 90%, centré
+hauteur minimum de 300px
+marge interne en haut et en bas de 20px*/
+.about-us {
+    min-height: 300px;
+    width: 90%;
+    text-align: center;
+    padding: 20px 0px;
+    margin: auto;      
+}
+
+.about-us h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    margin: 0 0 15px 0;   
+}
+
+/* paragraphe
+taille du texte de 14px
+espacement entre les paragraphes de 15px */
+
+/* J'aurais peut être d'autres paragraphes
+p {
+    font-size: 14px;
+    margin: 15px;
+} */
+
+.about-us p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.about-us a:hover {
+    color: red;
+}
+
+.portrait {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    object-position: top;
+    margin: auto;
+}
+
+.container-2 {
+    background-color: aqua;
+    margin: 50px auto;
+    width: 300px;
+    height: 300px;
+}
+
+.portrait-2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}

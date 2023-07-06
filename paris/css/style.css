@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* comportement du scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 1500px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* COMPONENTS */
+
+.btn {
+  color: #fff;
+  background-color: #0a2b19;
+  padding: 20px 60px;
+}
+
+.up {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-transform: uppercase;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0a2b19;
+  min-height: 65px;
+  padding: 0 60px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  
+
+}
+
+header a {
+  color: #fff;
+}
+
+.logo {
+  font-family: "Nunito", sans-serif;
+  font-size: 35px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+.hero {
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.692),
+      rgba(156, 112, 112, 0)
+    ),
+    url(../img/louvre-1280-853.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+}
+
+.hero h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.hero p {
+  font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 60px;
+  }
+
+
+  /* .btn {
+    background-color: red;
+  } */
+
+ nav {
+    /* j'ai envie qu'ils s'espacent */
+    width: 100%;
+    justify-content: space-between;
+ }
+}
+
+/* en-dessous de 500 pixels le design change*/
+
+@media screen and (max-width: 500px){
+  nav {
+  flex-direction: column;
+  align-items: center;
+}
+}
+
+.contact { 
+margin-top: 100px;
+}
+
+.contact h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.form-contact {
+  /* background-color: rgba(0, 255, 255, 0.158); */
+  width: 80%;
+  height: 300px;
+  margin: 50px auto;
+  box-shadow: 8px 16px 16px #0a2b1979;
+  border-radius: 5px;
+  padding: 20px;
+  
+ 
+}
+
+.nom-label {
+  margin-bottom: 18px;
+  border-radius: 5px;
+}
+
+.info-label {
+  margin: 0 0 15px 30px;
+  border-radius: 5px;
+}
+
+
+.btn-submit {
+  margin: 0 0 0 30px;
+  background-color: #0a2b19;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 30px; 
+  border: none; 
+}
+
+
+

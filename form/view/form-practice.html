@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Exercice Formulaire</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="pseudo">Pseudo</label>
+            <input type="text" id="pseudo" required autofocus>
+        </div>
+
+        <div>
+            <label for="mdp">Password</label>
+            <input type="password" id="mdp" required>
+        </div>
+
+        <div>
+            <label for="mail">Email</label>
+            <input type="email" id="mail">
+        </div>
+
+        <div>
+            <label for="date">Date</label>
+            <input type="date" id="date">
+        </div>
+
+        <div>
+            <label for="engine">Véhicule</label>
+            <select id="engine">
+                <option value="moto">moto</option>
+                <option value="voiture">voiture</option>
+            </select>   
+        </div>
+
+        <div>
+            <label for="info">Dites nous en plus sur vous</label>
+            <textarea name="" id="info"></textarea>
+        </div>
+
+        <div>
+            <span>Sexe</span>
+            <input type="radio" value="male" id="male" name="ok">
+            <label for="male">Homme</label>
+            <input type="radio" value="female" id="female" name="ok">
+            <label for="female">Femme</label>
+        </div>
+
+        <div>
+            <span>Sport pratiqué</span>
+            <label for="karate">Karaté</label>
+            <input type="checkbox" id="karate" value="karate">
+            <label for="tennis">Tennis</label>
+            <input type="checkbox" id="tennis" value="tennis">
+        </div>
+
+        <div>
+            <label for="download">Télécharger</label>
+            <input type="file" id="download">
+        </div>
+
+        <input type="submit" value="Envoyer">
+        <input type="reset" name="" id="" value="Effacer">   
+    </form>
+</body>
+</html>

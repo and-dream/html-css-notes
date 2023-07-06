@@ -1,0 +1,26 @@
+/* CSS Cascading Style Sheet */
+/* Je suis un commentaire en css */
+
+h2{
+    color: red;
+}
+
+h2{
+    color: green;
+}
+
+.chaussette{
+    color: blue;
+}
+
+h1, .txt-orange {
+    color: orange;
+}
+
+.txt-pink{
+    color: pink;
+}
+
+.subtitle h2 {
+    color: pink;
+}

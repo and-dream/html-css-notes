@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+}
+
+h1 {
+    background-color: pink;
+    /* text-align: center; */
+    /* width: 500px; */
+    margin: auto;
+}
+
+.container {
+    /* background-color: aqua; */
+
+    /* Largeur */
+    /* Par défaut la valeur est sur auto {width: 1000px;} */
+    width: 50%;
+
+    /* Hauteur */
+    /* Par défaut la valeur est sur auto {height: auto;} */
+    min-height: 100px;
+
+    /* Margin sert à mettre de la marge exterieur, il y a plein de raccourcis */
+    /* margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px; */
+   
+    /* margin: 100px 15px 20px 80px; */
+
+    margin: 50px auto;
+
+    /* Padding sert à mettre de la marge intérieur, il y a pleins de raccourcis */
+    /* padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px; */
+
+    padding: 50px 20px;
+
+    /* border: 1px solid #000; */
+    /* border-bottom: 1px solid #333; */
+
+    box-shadow: 4px 10px 10px #0000001f;
+    border-radius: 5px;
+
+}
+
+.circle {
+
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
+
+}

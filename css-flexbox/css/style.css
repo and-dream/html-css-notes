@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+}
+
+.container {
+    background-color: pink;
+    min-height: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.item {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    
+}
+
+.item-2 {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+}
+
